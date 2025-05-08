@@ -59,3 +59,7 @@
 
 <!-- Mermaid -->
 {{ partial "mermaid/assets/js" . }}
+
+{{ if .Param "math" }}
+    {{ partialCached "math.html" . }}
+{{ end}}

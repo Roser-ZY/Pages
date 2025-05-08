@@ -1,6 +1,7 @@
 ######################## default configuration ####################
 # The base URL of your site (required). This will be prepended to all relative URLs.
-baseURL = "https://roser-zy.github.io/page/"
+#baseURL = "https://roser-zy.github.io/page/"
+baseURL = "/"
 # Title of your website (required).
 title = "Roser Space"
 # Your theme name
@@ -84,6 +85,17 @@ maxAge = "720h"
 [markup.goldmark.renderer]
 unsafe = true
 
+[markup.goldmark]
+[markup.goldmark.extensions]
+[markup.goldmark.extensions.passthrough]
+enable = true
+[markup.goldmark.extensions.passthrough.delimiters]
+block = [['$$', '$$']]
+inline = [['$', '$']]
+
+[params]
+  math = true
+
 [markup.highlight]
 style = 'monokai' # see https://xyproto.github.io/splash/docs/all.html
 lineNumbersInTable = false
@@ -114,7 +126,6 @@ notAlternative = true
 
 
 ############################# Plugins ##############################
-
 # CSS Plugins
 [[params.plugins.css]]
 link = "plugins/swiper/swiper-bundle.css"
