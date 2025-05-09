@@ -1,12 +1,13 @@
 ---
 title: "Get Player Controller"
 author: "Roser"
-date: 2025-03-01
+date: 2025-05-09
 image: "images/content/UE5.png"
 draft: false
 tags:
   - UE5
   - Blueprint
+draft: true
 ---
 用于获取当前玩家的控制器，可从中获取玩家输入。
 

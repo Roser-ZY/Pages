@@ -1,14 +1,13 @@
 ---
 title: "CPU Cache 伪共享"
 author: "Roser"
-date: 2025-04-25
+date: 2025-05-09
 image: "images/content/OS.png"
 draft: false
 tags:
   - OS
   - Concurrency
   - Review
-  - Draft
 sr-due: 2025-06-19
 sr-interval: 55
 sr-ease: 250

@@ -1,7 +1,7 @@
 ---
 title: "cmake_minimum_required"
 author: "Roser"
-date: 2025-01-02
+date: 2025-05-09
 image: "images/content/CMake.png"
 draft: false
 tags:

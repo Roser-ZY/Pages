@@ -1,12 +1,13 @@
 ---
 title: "GroomComponent"
 author: "Roser"
-date: 2025-04-24
+date: 2025-05-09
 image: "images/content/UE5.png"
 draft: false
 tags:
   - UE5
-draft: true
+  - Todo
+draft: false
 ---
 必须绑定到 Mesh Component 上，一般是 `USkeletalMeshComponent`，使得毛发能与骨骼绑定。
 

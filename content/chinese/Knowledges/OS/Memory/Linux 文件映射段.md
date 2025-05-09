@@ -1,13 +1,14 @@
 ---
 title: "Linux 文件映射段"
 author: "Roser"
-date: 2025-04-03
+date: 2025-05-09
 image: "images/content/OS.png"
 draft: false
 tags:
   - OS
   - Review
-draft: true
+  - Todo
+draft: false
 ---
 程序运行过程中还需要依赖动态链接库，这些动态链接库以 `.so` 文件的形式存放在磁盘中。它们也有自己对应的代码段、数据段、BSS段，也需要一起加载进内存。
 

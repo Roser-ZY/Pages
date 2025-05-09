@@ -1,7 +1,7 @@
 ---
 title: "Snapshot Interpolation"
 author: "Roser"
-date: 2025-04-07
+date: 2025-05-09
 image: "images/content/Network.png"
 draft: false
 tags:

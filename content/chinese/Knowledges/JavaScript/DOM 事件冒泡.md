@@ -1,7 +1,7 @@
 ---
 title: "DOM 事件冒泡"
 author: "Roser"
-date: 2024-12-19
+date: 2025-05-09
 image: "images/content/JavaScript.png"
 draft: false
 tags:

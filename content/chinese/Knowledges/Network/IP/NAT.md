@@ -1,14 +1,13 @@
 ---
 title: "NAT"
 author: "Roser"
-date: 2025-04-07
+date: 2025-05-09
 image: "images/content/Network.png"
 draft: false
 tags:
   - Network
   - IP
   - Review
-  - Draft
 sr-due: 2025-05-13
 sr-interval: 36
 sr-ease: 270

@@ -1,7 +1,7 @@
 ---
 title: "Assimp 导入文件概述"
 author: "Roser"
-date: 2024-12-30
+date: 2025-05-09
 image: "images/content/OpenGL.png"
 draft: false
 tags:

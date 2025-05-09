@@ -1,11 +1,12 @@
 ---
 title: "ACID"
 author: "Roser"
-date: 2025-02-10
+date: 2025-05-09
 image: "images/content/Database.png"
 draft: false
 tags:
   - Database
+  - Todo
 ---
 ACID 是数据库事务的四个特性，分别是原子性（Atomicity），一致性（Consistency），隔离性（Isolation）和持久性（Durability）。
 # Atomicity

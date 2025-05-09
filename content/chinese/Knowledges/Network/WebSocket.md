@@ -1,12 +1,13 @@
 ---
 title: "WebSocket"
 author: "Roser"
-date: 2025-02-08
+date: 2025-05-09
 image: "images/content/Network.png"
 draft: false
 tags:
   - Network
   - Protocol
+  - Todo
 ---
 WebSocket 是一种 **全双工（Full-Duplex）** 的通信协议，它建立在 **TCP 之上**，允许客户端和服务器之间进行 **实时、双向通信**，比传统的 **HTTP 轮询** 或 **长轮询** 更高效。
 

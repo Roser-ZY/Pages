@@ -1,14 +1,13 @@
 ---
 title: "CPU 缓存一致性"
 author: "Roser"
-date: 2025-05-08
+date: 2025-05-09
 image: "images/content/OS.png"
 draft: false
 tags:
   - OS
   - Concurrency
   - Review
-  - Draft
 sr-due: 2025-06-20
 sr-interval: 56
 sr-ease: 250

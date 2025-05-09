@@ -1,7 +1,7 @@
 ---
 title: "单例模式中 static 对象的存在形式"
 author: "Roser"
-date: 2025-02-18
+date: 2025-05-09
 image: "images/content/C++.png"
 draft: false
 tags:

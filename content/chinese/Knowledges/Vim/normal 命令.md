@@ -1,11 +1,12 @@
 ---
 title: "normal 命令"
 author: "Roser"
-date: 2025-03-10
+date: 2025-05-09
 image: "images/content/Vim.png"
 draft: false
 tags:
   - Vim
+draft: true
 ---
 `:normal {commands}` 可以在命令模式下执行普通模式的命令，其中 `commands` 表示命令序列。
 

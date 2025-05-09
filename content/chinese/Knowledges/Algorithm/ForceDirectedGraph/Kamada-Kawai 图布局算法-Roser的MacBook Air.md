@@ -1,7 +1,7 @@
 ---
 title: "Kamada-Kawai 图布局算法-Roser的MacBook Air"
 author: "Roser"
-date: 2025-01-13
+date: 2025-05-09
 image: "images/content/Algorithm.png"
 draft: false
 tags:
@@ -23,4 +23,4 @@ $$
 
 Newton-Raphson 算法通过二阶偏导进行更快速的收敛。
 
-![](assets/Pasted%20image%2020250110143618.png)
+![](images/Newton-Raphson算法.png)

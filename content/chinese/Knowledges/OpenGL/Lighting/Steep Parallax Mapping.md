@@ -73,7 +73,7 @@ float numLayers = mix(maxLayer, minLayer, max(dot(vec3(0.0, 0.0, 1.0), viewDir),
 
 我们直接用每个层级来模拟，会导致最终的效果是存在锯齿的，虽然可以增加层级数量，但是会大大降低性能。
 
-为了解决这个问题，在该基础上衍生了更多的算法，例如 [Relief Parallax Mapping](https://github.com/Rabbid76/graphics-snippets/blob/master/documentation/normal_parallax_relief.md#relief-parallax-mapping) 和 Parallax Occlusion Mapping 算法。
+为了解决这个问题，在该基础上衍生了更多的算法，例如 [Relief Parallax Mapping](https://github.com/Rabbid76/graphics-snippets/blob/master/documentation/normal_parallax_relief.md#relief-parallax-mapping) 和 [Parallax Occlusion Mapping](../Parallax-Occlusion-Mapping) 算法。
 
 - 前者采用二分插值，有更精确的结果。
 - 后者采用线性插值，有比前者更好的性能，更常用。

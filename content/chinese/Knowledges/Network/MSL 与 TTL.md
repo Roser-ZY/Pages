@@ -1,12 +1,12 @@
 ---
 title: "MSL 与 TTL"
 author: "Roser"
-date: 2025-03-12
+date: 2025-05-09
 image: "images/content/Network.png"
 draft: false
 tags:
   - Network
-  - "#Review"
+  - Review
 sr-due: 2025-05-16
 sr-interval: 65
 sr-ease: 310

@@ -1,7 +1,7 @@
 ---
 title: "Parameter Properties"
 author: "Roser"
-date: 2025-02-08
+date: 2025-05-09
 image: "images/content/TypeScript.png"
 draft: false
 tags:

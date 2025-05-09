@@ -1,7 +1,7 @@
 ######################## default configuration ####################
 # The base URL of your site (required). This will be prepended to all relative URLs.
-#baseURL = "https://roser-zy.github.io/page/"
-baseURL = "/"
+baseURL = "https://roser-zy.github.io/page/"
+#baseURL = "/"
 # Title of your website (required).
 title = "Roser Space"
 # Your theme name

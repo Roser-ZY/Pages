@@ -1,7 +1,7 @@
 ---
 title: "Eades 算法"
 author: "Roser"
-date: 2025-01-10
+date: 2025-05-09
 image: "images/content/Algorithm.png"
 draft: false
 tags:

@@ -1,12 +1,11 @@
 ---
 title: "DI 容器"
 author: "Roser"
-date: 2025-04-03
+date: 2025-05-09
 image: "images/content/Design Pattern.png"
 draft: false
 tags:
   - DesignPattern
-  - Draft
 ---
 其实如果广泛来看，DI 容器就是一个工厂，只不过是一个工厂的扩展或者说特殊工厂。DI 容器和工厂方法在实现上是类似的，不同的是概念上的关注点不同。
 

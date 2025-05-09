@@ -1,7 +1,7 @@
 ---
 title: "compile_command"
 author: "Roser"
-date: 2025-04-03
+date: 2025-05-09
 image: "images/content/CMake.png"
 draft: false
 tags:

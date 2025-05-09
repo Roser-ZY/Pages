@@ -1,7 +1,7 @@
 ---
 title: "Kamada-Kawai 图布局算法"
 author: "Roser"
-date: 2025-01-16
+date: 2025-05-09
 image: "images/content/Algorithm.png"
 draft: false
 tags:
@@ -46,7 +46,7 @@ $$
 
 关于 Newton-Raphson 算法可以参考下图，具体算法需要再去看下高等数学（可能）：
 
-![](assets/Pasted%20image%2020250110143618.png)
+![](images/Newton-Raphson算法.png)
 
 完整算法如下：
 $$

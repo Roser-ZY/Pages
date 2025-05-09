@@ -1,7 +1,7 @@
 ---
 title: "Tree Shaking"
 author: "Roser"
-date: 2025-02-08
+date: 2025-05-09
 image: "images/content/Webpack.png"
 draft: false
 tags:

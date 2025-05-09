@@ -1,13 +1,14 @@
 ---
 title: "TileMap Terrain"
 author: "Roser"
-date: 2024-12-26
+date: 2025-05-09
 image: "images/content/Godot.png"
 draft: false
 tags:
   - Godot
   - GameMap
   - TileMap
+draft: true
 ---
 [Terrain 工作原理](https://github.com/godotengine/godot-docs/blob/3af511222f68fa6ea6a9606234d5d8799411ca5a/tutorials/2d/using_tilesets.rst#understanding-how-terrains-work)
 

@@ -1,12 +1,13 @@
 ---
 title: "Animation Blueprint 与 Animation Montage 的关系与区别"
 author: "Roser"
-date: 2025-04-27
+date: 2025-05-09
 image: "images/content/UE5.png"
 draft: false
 tags:
   - UE5
-draft: true
+  - Todo
+draft: false
 ---
 Animation Blueprint 通常用来做一些持续的状态动画，例如 Idle，Walk 和 Run 等。Animation Blueprint 不能在普通蓝图中访问并操作。
 

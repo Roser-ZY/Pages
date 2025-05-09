@@ -1,14 +1,14 @@
 ---
 title: "free() 内存释放"
 author: "Roser"
-date: 2025-04-14
+date: 2025-05-09
 image: "images/content/OS.png"
 draft: false
 tags:
   - OS
   - Cpp
   - Review
-  - Draft
+  - Todo
 sr-due: 2025-05-14
 sr-interval: 30
 sr-ease: 250

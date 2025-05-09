@@ -1,13 +1,14 @@
 ---
 title: "Reflection System"
 author: "Roser"
-date: 2025-04-23
+date: 2025-05-09
 image: "images/content/UE5.png"
 draft: false
 tags:
   - UE5
   - Review
-draft: true
+  - Todo
+draft: false
 ---
 反射是一种能力，使得应用程序可以在运行时检查自己的状态。在 UE5 中，这是非常核心的能力，用于各方面的功能，例如序列化，垃圾回收，网络相应，蓝图/C++ 交流等。C++ 不具备反射功能，因此 UE5 有自己的一套反射系统。
 

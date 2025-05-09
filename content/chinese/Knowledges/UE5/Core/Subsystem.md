@@ -1,13 +1,14 @@
 ---
 title: "Subsystem"
 author: "Roser"
-date: 2025-04-23
+date: 2025-05-09
 image: "images/content/UE5.png"
 draft: false
 tags:
   - UE5
   - Review
-draft: true
+  - Todo
+draft: false
 ---
 子系统是 UE5 引擎中为了分离功能模块、实现清晰职责划分而引入的架构设计。通常有四类子系统：
 

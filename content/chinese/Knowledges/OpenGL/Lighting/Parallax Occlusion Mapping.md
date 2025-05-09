@@ -37,6 +37,8 @@ return finalTexCoords;
 ```
 
 ```
+// 公式推导
+
 x + (y - x) * i / (i + j) = target
 
 x * i + x * j + y * i - x * i = target / (i + j)

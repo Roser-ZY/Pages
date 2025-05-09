@@ -1,12 +1,13 @@
 ---
 title: "Actor 生命周期触发函数及功能"
 author: "Roser"
-date: 2025-04-23
+date: 2025-05-09
 image: "images/content/UE5.png"
 draft: false
 tags:
   - UE5
-draft: true
+  - Todo
+draft: false
 ---
 下表按照 [Actor 生命周期](../../Basic/Actor-生命周期)调用顺序排列，只是大概列一下，没有区分具体路径：
 

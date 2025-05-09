@@ -1,12 +1,13 @@
 ---
 image: "images/content/UE5.png"
 draft: false
-date: 2025-04-23
+date: 2025-05-09
 title: PROPERTY()
 author: Roser Han
 tags:
   - UE5
-draft: true
+  - Todo
+draft: false
 ---
 `PROPERTY()` 的作用是：
 - 将变量注册到 UE5 反射系统中（否则编辑器，GC，序列化，蓝图都无法处理）。

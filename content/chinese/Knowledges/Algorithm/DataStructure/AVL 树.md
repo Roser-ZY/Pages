@@ -1,12 +1,13 @@
 ---
 title: "AVL 树"
 author: "Roser"
-date: 2025-01-18
+date: 2025-05-09
 image: "images/content/Algorithm.png"
 draft: false
 tags:
   - DataStructure
   - Tree
+  - Todo
 ---
 AVL 树是**一种**平衡二叉搜索树， 1962 年 G. M. Adelson-Velsky 和 E. M. Landis 在论文 *“An algorithm for the organization of information”* 提出。
 

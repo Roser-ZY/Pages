@@ -1,7 +1,7 @@
 ---
 title: "Hugoplate 配置"
 author: "Roser"
-date: 2025-05-08
+date: 2025-05-09
 image: "images/content/Hugo.png"
 draft: false
 tags:
@@ -37,6 +37,8 @@ draft: true
 - `content/xxxxxx`
 
 其中 xx 为 language code，xxxxxx 为在 `language.toml` 中配置的对应语言的 content 目录。
+
+> 如果只有一个语言，记得将 `hugo.toml` 中的 `defaultContentLanguageInSubdir` 设置为 `false`，否则根路由后面会添加 language code 的路由。
 ### 主要文章页面
 
 在 `params.toml` 配置文件中，需要修改（添加到）`mainSections` 和 `search.includeSections`。
@@ -59,3 +61,11 @@ draft: true
 仓库下有五个平台的发布配置。
 
 github page 的发布可直接使用 `.github/workflows` 目录下的配置即可。
+#### 链接格式与图片
+
+obsidian 的链接会有 `.md` 后缀名，并且空格（`%20`）需要处理为 `-`，另外解析后的相对路径是要多一层的（因为文章会被解析到同名目录下），因此开头需要新增一层 `../`，通过脚本实现该处理过程。
+
+使用相对路径，同目录下的 images 存储图片，然后用脚本将图片拷贝到统一的 asset/images 目录下即可。
+#### 代码样式
+
+代码在白色主题下文本颜色为黑色，而背景也是黑色，导致看不见普通文本。

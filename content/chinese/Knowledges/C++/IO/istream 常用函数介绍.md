@@ -1,12 +1,13 @@
 ---
 title: "istream 常用函数介绍"
 author: "Roser"
-date: 2025-02-25
+date: 2025-05-09
 image: "images/content/C++.png"
 draft: false
 tags:
   - Cpp
   - IO
+draft: true
 ---
 [TOC]
 

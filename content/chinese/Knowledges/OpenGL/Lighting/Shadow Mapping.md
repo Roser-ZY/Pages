@@ -1,14 +1,15 @@
 ---
 title: "Shadow Mapping"
 author: "Roser"
-date: 2025-05-08
+date: 2025-05-09
 image: "images/content/OpenGL.png"
 draft: false
 tags:
   - OpenGL
   - Lighting
   - Review
-draft: true
+  - Todo
+draft: false
 ---
 将观察视角转换到光源位置，借助深度测试获取光源不可见的片段，即阴影区域。
 

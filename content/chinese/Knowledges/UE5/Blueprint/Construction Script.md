@@ -1,12 +1,13 @@
 ---
 title: "Construction Script"
 author: "Roser"
-date: 2025-04-21
+date: 2025-05-09
 image: "images/content/UE5.png"
 draft: false
 tags:
   - UE5
-draft: true
+  - Todo
+draft: false
 ---
 创建蓝图类的实例时（放入场景），构造脚本（Contruction Script）在组件列表之后运行。它包含的节点图表允许蓝图实例执行初始化操作（如果继承自 C++ 类则会在该流程调用 [OnConstruction()](../Cpp/OnConstruction().md)）。
 

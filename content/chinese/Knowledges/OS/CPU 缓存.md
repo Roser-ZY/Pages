@@ -1,13 +1,12 @@
 ---
 title: "CPU 缓存"
 author: "Roser"
-date: 2025-04-14
+date: 2025-05-09
 image: "images/content/OS.png"
 draft: false
 tags:
   - OS
   - Review
-  - Draft
 sr-due: 2025-06-04
 sr-interval: 51
 sr-ease: 290

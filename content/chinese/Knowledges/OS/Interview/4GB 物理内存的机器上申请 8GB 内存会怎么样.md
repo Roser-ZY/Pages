@@ -1,14 +1,13 @@
 ---
 title: "4GB 物理内存的机器上申请 8GB 内存会怎么样"
 author: "Roser"
-date: 2025-04-14
+date: 2025-05-09
 image: "images/content/OS.png"
 draft: false
 tags:
   - Interview
   - OS
   - Review
-  - Draft
 sr-due: 2025-05-10
 sr-interval: 26
 sr-ease: 252

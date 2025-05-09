@@ -1,12 +1,13 @@
 ---
 title: "Enable Input"
 author: "Roser"
-date: 2025-03-01
+date: 2025-05-09
 image: "images/content/UE5.png"
 draft: false
 tags:
   - UE5
   - Blueprint
+  - Todo
 ---
 `Enable Input` 和 `Disable Input` 主要用于控制玩家输入的启用和停用，通常用于非默认玩家控制的 Actor，例如环境交互对象，特定 UI 控制等，使其能够获取玩家输入。
 
