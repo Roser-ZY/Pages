@@ -1,7 +1,7 @@
 ---
 title: "DHCP 协议"
 author: "Roser"
-date: 2025-04-07
+date: 2025-05-08
 image: "images/content/Network.png"
 draft: false
 tags:
@@ -14,7 +14,7 @@ sr-ease: 250
 ---
 一般来说。DHCP 客户端监听 68 端口，DHCP 服务端监听 67 端口。
 
-![](../image/DHCP%20协议流程.webp)
+![](images/DHCP%20协议流程.webp)
 
 DHCP 协议包含四个步骤：
 - 客户端首先发送 DHCP 发现报文（DHCP DISCOVER），由于客户端还没有 IP 地址，并且不知道 DHCP 服务器地址，因此该报文使用 UDP 广播通信。
@@ -26,6 +26,6 @@ DHCP 协议包含四个步骤：
 
 由于整个 DCHP 协议过程都是 UDP 广播，需要 DCHP 服务器在同一个网络内，这会导致 DCHP 服务器较多。为了解决这个问题，引入了 DCHP 中继代理。
 
-![](../image/DCHP%20中继代理.webp)
+![](images/DCHP%20中继代理.webp)
 
 中继代理由路由器完成，同一网络内仍然使用广播，但是中继代理之间使用单播，这样便可以配置一个比较顶层的 DCHP 服务器，即可为多个子网提供服务。

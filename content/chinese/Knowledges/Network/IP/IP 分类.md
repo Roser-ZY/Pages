@@ -1,7 +1,7 @@
 ---
 title: "IP 分类"
 author: "Roser"
-date: 2025-04-07
+date: 2025-05-08
 image: "images/content/Network.png"
 draft: false
 tags:
@@ -14,7 +14,7 @@ sr-ease: 270
 ---
 互联网诞生之初，IP 地址设计为分类地址，一共有五种，分别为 A，B，C，D，E 类别。
 
-![](../image/IP%20地址分类.webp)
+![](images/IP%20地址分类.webp)
 
 A，B，C 类地址主要分为两部分：网络号和主机号。网络号就像是小区名，主机号则是住户。
 

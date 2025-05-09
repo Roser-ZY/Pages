@@ -1,7 +1,7 @@
 ---
 title: "Linux 系统虚拟内存空间分布"
 author: "Roser"
-date: 2025-04-14
+date: 2025-05-08
 image: "images/content/OS.png"
 draft: false
 tags:
@@ -13,7 +13,7 @@ sr-ease: 270
 ---
 Linux 系统内存空间分布如下：
 
-![](../image/Linux内存空间分布.webp)
+![](images/Linux内存空间分布.webp)
 
 - 低地址处为保留段，用于检测地址错误等。
 - 代码段：二进制可执行代码。
@@ -27,10 +27,10 @@ Linux 系统内存空间分布如下：
 
 在 Linux 系统中，区分了内核空间和用户空间。用户进程运行在用户空间，而操作系统等运行在内核空间。只有系统中断时，进程才能访问内核空间的内存。
 
-![](../image/Linux不同系统空间分布.webp)
+![](images/Linux不同系统空间分布.webp)
 
 虽然每个进程都有独立的虚拟内存，但是内核空间实际上是进程之间共享的。
 
-![](../image/Linux内核空间共享.webp)
+![](images/Linux内核空间共享.webp)
 
 > 上图的内核空间是高地址，画到下面了。

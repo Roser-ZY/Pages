@@ -1,7 +1,7 @@
 ---
 title: "DNS 协议"
 author: "Roser"
-date: 2025-04-07
+date: 2025-05-08
 image: "images/content/Network.png"
 draft: false
 tags:
@@ -22,5 +22,5 @@ DNS 用于解析域名，从而将域名网址解析为具体的 IP 地址。
 - 本地 DNS 收到根域名服务器的响应后，会根据响应的地址去问顶级域名服务器。顶级域名服务器同样会给一个路径。
 - 本地 DNS 服务器再想权威服务器请求，此时权威服务器如果查找到了，就会给出该 IP，如果仍没找到，则表示该域名不存在。
 
-![](../image/域名解析流程示意图.webp)
+![](images/域名解析流程示意图.webp)
 

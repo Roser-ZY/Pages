@@ -1,7 +1,7 @@
 ---
 title: "CPU 缓存一致性"
 author: "Roser"
-date: 2025-04-25
+date: 2025-05-08
 image: "images/content/OS.png"
 draft: false
 tags:
@@ -33,4 +33,4 @@ CPU 的缓存数据更新策略主要有**写直达**和**写回**。
 
 > MESI 能减少广播的频率。
 
-![](image/MESI状态转换表.webp)
+![](images/MESI状态转换表.webp)

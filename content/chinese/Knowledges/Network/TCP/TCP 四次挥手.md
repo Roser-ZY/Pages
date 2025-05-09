@@ -1,7 +1,7 @@
 ---
 title: "TCP 四次挥手"
 author: "Roser"
-date: 2025-04-25
+date: 2025-05-08
 image: "images/content/Network.png"
 draft: false
 tags:
@@ -14,7 +14,7 @@ sr-ease: 252
 ---
 四次挥手是 TCP 断开连接的方式。与 [TCP 三次握手](TCP%20三次握手.md)不同，四次挥手时双方都可以主动断开连接。
 
-![](../image/四次挥手.png)
+![](images/四次挥手.png)
 
 - **第一次挥手**（客户端发送 FIN 报文）： 客户端向服务器发送一个带有 FIN 标志的报文，表示客户端已经完成数据发送，并希望关闭连接。发送完这个报文后，客户端进入 FIN-WAIT-1 状态，等待服务器的回应。
 

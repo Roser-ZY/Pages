@@ -1,14 +1,14 @@
 ---
 title: "Point Shadow"
 author: "Roser"
-date: 2025-04-15
+date: 2025-05-08
 image: "images/content/OpenGL.png"
 draft: false
 tags:
   - OpenGL
   - Lighting
-  - Draft
   - Review
+draft: true
 ---
 对于点光源和聚光灯来说，需要使用透视投影而不是正交投影。这类阴影映射称为点光源映射或全向阴影。
 

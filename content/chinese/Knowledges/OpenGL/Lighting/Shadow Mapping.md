@@ -1,14 +1,14 @@
 ---
 title: "Shadow Mapping"
 author: "Roser"
-date: 2025-04-03
+date: 2025-05-08
 image: "images/content/OpenGL.png"
 draft: false
 tags:
   - OpenGL
   - Lighting
   - Review
-  - Draft
+draft: true
 ---
 将观察视角转换到光源位置，借助深度测试获取光源不可见的片段，即阴影区域。
 
@@ -16,7 +16,7 @@ tags:
 
 摩尔纹可以通过一点偏移值来解决，原因是有一些片段的深度值相同，另一些不同，从而导致前者遮挡了后者。
 
-![](../image/阴影映射摩尔纹现象原因.png)
+![](images/阴影映射摩尔纹现象原因.png)
 Perter Pan 是摩尔纹的偏移，导致有一些面的偏移量过大导致。可以通过面剔除，剔除 Front 面来修正。
 
 有一些区域，由于 z 值已经超出 1.0，此时深度测试的结果总为 true（该位置总是处于阴影）。可以简单的将 z > 1.0 的条件设置为没有阴影，这样操作的后果是超出深度测试的区域不会有任何阴影。这个在游戏中是合理的，远处物体的影子通常不太关注。

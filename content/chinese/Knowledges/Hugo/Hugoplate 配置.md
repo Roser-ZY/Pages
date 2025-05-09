@@ -1,7 +1,7 @@
 ---
 title: "Hugoplate 配置"
 author: "Roser"
-date: 2025-05-02
+date: 2025-05-08
 image: "images/content/Hugo.png"
 draft: false
 tags:
@@ -29,6 +29,14 @@ draft: true
 在 `hugo.toml` 中可以设置主语言，此处的值为 `config/_default/language.toml` 配置的语言名（以方括号包裹，例如`[zh]`）。
 
 另外，需要在 `i18n` 目录下添加对应语言的网页翻译（非博文内容）。
+
+如果只有一个语言，记得清理其他语言的配置文件，包括：
+- `config/_default/menus_xx.toml`
+	- 必须要删除，否则文章会重复出现。
+- `i18n/xx.yaml`
+- `content/xxxxxx`
+
+其中 xx 为 language code，xxxxxx 为在 `language.toml` 中配置的对应语言的 content 目录。
 ### 主要文章页面
 
 在 `params.toml` 配置文件中，需要修改（添加到）`mainSections` 和 `search.includeSections`。
@@ -40,3 +48,14 @@ draft: true
 ### 特殊页面
 
 例如主页，About 等，可以参考模板中的文章。
+### 作者
+
+作者介绍文档名称需要与文章中配置的名称对应，大小写不区分。
+### 数学公式
+
+官网配置 [Hugo Latex 识别](https://gohugo.io/content-management/mathematics/)。
+### 部署
+
+仓库下有五个平台的发布配置。
+
+github page 的发布可直接使用 `.github/workflows` 目录下的配置即可。

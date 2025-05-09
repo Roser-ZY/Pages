@@ -1,7 +1,7 @@
 ---
 title: "TCP 三次握手"
 author: "Roser"
-date: 2025-04-25
+date: 2025-05-08
 image: "images/content/Network.png"
 draft: false
 tags:
@@ -21,7 +21,7 @@ sr-ease: 250
 
 三次握手示意图如下：
 
-![](../image/三次握手.png)
+![](images/三次握手.png)
 
 在握手前，服务器处于 LISTEN 状态，而客户端处于 CLOSE 状态。客户端主动发起连接请求后，进入三次握手。
 

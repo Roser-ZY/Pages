@@ -1,7 +1,7 @@
 ---
 title: "TCP 报文格式"
 author: "Roser"
-date: 2025-02-08
+date: 2025-05-08
 image: "images/content/Network.png"
 draft: false
 tags:
@@ -10,7 +10,7 @@ tags:
 ---
 TCP 报文格式如下：
 
-![](image/TCP报文格式.png)
+![](images/TCP报文格式.png)
 各个字段含义如下：
 
 | 字段名称                       | 长度  | 用途                                       |

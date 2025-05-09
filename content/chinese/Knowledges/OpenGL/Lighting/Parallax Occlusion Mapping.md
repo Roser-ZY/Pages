@@ -14,7 +14,7 @@ Parallax Occlusion Mapping 在 [Steep Parallax Mapping](Steep%20Parallax%20Mappi
 
 > 纹理偏移也会更接近真实值。
 
-![](../image/Parallax_Occlusion_Mapping示意图.png)
+![](images/Parallax_Occlusion_Mapping示意图.png)
 
 上图可知，该方法只是在 Steep Parallax Mapping 的基础上额外对高度进行了进行了线性插值后再计算纹理坐标。
 

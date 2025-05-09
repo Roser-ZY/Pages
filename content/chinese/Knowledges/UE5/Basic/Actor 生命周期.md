@@ -1,14 +1,14 @@
 ---
 title: "Actor 生命周期"
 author: "Roser"
-date: 2025-04-18
+date: 2025-05-08
 image: "images/content/UE5.png"
 draft: false
 tags:
   - UE5
 draft: true
 ---
-![](image/Actor生命周期示意图.png)
+![](images/Actor生命周期示意图.png)
 
 # 从磁盘加载
 
