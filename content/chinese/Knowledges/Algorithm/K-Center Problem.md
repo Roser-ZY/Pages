@@ -1,7 +1,7 @@
 ---
 title: "K-Center Problem"
 author: "Roser"
-date: 2025-01-15
+date: 2025-05-09
 image: "images/content/Algorithm.png"
 draft: false
 tags:
@@ -15,6 +15,7 @@ K-中心问题是指从图中找到一个点集 $S\subseteq V$，使得 $max_{v\
 - $max_{v\in V}$ 找到到最近点集 $S$ 的最近顶点 $s$ 距离最远的顶点 $v$。
 
 可采用贪心算法求解。
+
 $$
 \begin{array}{l}
 \textbf{K-Centers}(G(V, E), k) \\

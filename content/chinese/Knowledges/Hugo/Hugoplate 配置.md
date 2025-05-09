@@ -45,6 +45,8 @@ draft: true
 
 前者是告知主体哪些 Section 是主要文章 Section，后者是告知搜索时的范围。
 
+注意这两个的大小写，`mainSections` 似乎大小写不敏感，但是 `search.includeSections` 是大小写敏感的，且后者似乎是要和生成的 `public` 目录下的大小写为准（或者说是路由）。
+
 > 目前主题使用了 `categories` 配置来确认一些内容，我将其修改为判断 `tags`。
 
 ### 特殊页面

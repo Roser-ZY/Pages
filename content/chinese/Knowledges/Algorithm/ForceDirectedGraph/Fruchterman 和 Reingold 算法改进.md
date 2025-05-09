@@ -1,7 +1,7 @@
 ---
 title: "Fruchterman 和 Reingold 算法改进"
 author: "Roser"
-date: 2025-01-10
+date: 2025-05-09
 image: "images/content/Algorithm.png"
 draft: false
 tags:
@@ -12,18 +12,23 @@ tags:
 Fruchterman 和 Reingold 对 [Eades 算法](../Eades-算法) 进行了改进，他们添加了顶点均匀分布的计算，让图中的顶点视为“彼此之间具有吸引力和排斥力的原子、粒子或者天体。“
 
 吸引力和排斥力计算方式为：
+
 $$
 f_a(d)=d^2/k,\ \ \ \ \ f_r(d)=-k^2/d
 $$
+
 其中 $d$ 为顶点之间的距离，$k$ 为两个顶点之间的最佳距离：
+
 $$
 k=C\sqrt{\frac{area}{number\ of\ vertices}}
 $$
+
 此外，该算法还引入了 Temperature （的概念）来控制布局变化过程中顶点的位移。它可以从初始值（比如画布宽度的十分之一开始，然后以逆线性方式衰减到 0。
 
 Fruchterman 和 Reingold 建议使用网格变体（Grid Variant）进行复杂度优化，远距离顶点之间的排斥力被忽略。对于稀疏图，并且采用线性分布的顶点，这个方法计算排斥力时有接近 $O(|V|)$ 的时间复杂度。
 
 #### 完整算法
+
 $$
 \begin{array}{l}
 area := W * L; \text{ // W and L are the width and length of the frame} \\

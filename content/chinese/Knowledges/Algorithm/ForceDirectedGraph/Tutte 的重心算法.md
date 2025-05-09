@@ -1,7 +1,7 @@
 ---
 title: "Tutte 的重心算法"
 author: "Roser"
-date: 2025-01-10
+date: 2025-05-09
 image: "images/content/Algorithm.png"
 draft: false
 tags:
@@ -25,6 +25,7 @@ The Barycentric Method 被认为是最初的力导向图算法。其核心思想
 该算法的输入为一个图 $G=(V,E)$，其中 $V=V_0 \cup V_1$ 划分为两个子集，$V_0$ 至少包含三个固定顶点，并且顶点形成的多边形为凸多边形，而 $V_1$ 则为自由顶点。
 
 算法输出为每个顶点的位置 $p_v$ 。
+
 $$
 \begin{array}{l}
 1.\ Place\ each\ fixed\ vertex\ u\in V_0,\ and\ each\ free\ vertex\ at\ the\ origin.\\
@@ -35,4 +36,5 @@ $$
 \quad \textbf{until}\ x_v\ and\ y_v\ converge\ for\ all\ free\ vertices\ v.
 \end{array}
 $$
+
 其中 $degree(v)$ 为每个顶点的度，即与之相连的边的数量。最终的终止条件为顶点的变化趋于稳定，例如位移量小于某个阈值。
