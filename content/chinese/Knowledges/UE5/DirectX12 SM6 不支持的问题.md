@@ -1,7 +1,7 @@
 ---
 title: "DirectX12 SM6 不支持的问题"
 author: "Roser"
-date: 2025-05-09
+date: 2025-04-23
 image: "images/content/UE5.png"
 draft: false
 tags:

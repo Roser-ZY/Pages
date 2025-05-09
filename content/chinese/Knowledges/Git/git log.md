@@ -1,7 +1,7 @@
 ---
 title: "git log"
 author: "Roser"
-date: 2025-05-09
+date: 2025-02-19
 image: "images/content/Git.png"
 draft: false
 tags:

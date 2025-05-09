@@ -1,7 +1,7 @@
 ---
 title: "为什么 TIME_WAIT 等待时间为 2MSL？"
 author: "Roser"
-date: 2025-05-09
+date: 2025-03-12
 image: "images/content/Network.png"
 draft: false
 tags:

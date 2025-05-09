@@ -8,12 +8,19 @@ ORIGIN_PATH: Path = Path('origin/chinese/Knowledges')
 OUTPUT_PATH: Path = Path('content/chinese/Knowledges')
 
 COVER_IMAGE_PATH: str = 'images/content/'
-PRIVATE_DIRECTORY_NAME: str = 'Private'
+SKIP_DIRECTORY_NAMES: list[str] = [
+    'Private',
+    'images',
+    'model'
+]
 ORIGIN_KNOWLEDGES_DIRECTORY_NAME: str = 'Knowledges'
 
 def need_skip(file_path: Path):
+    should_skip: bool = (file_path == '_index.md')
     path_parts = file_path.parts
-    return PRIVATE_DIRECTORY_NAME in path_parts or file_path == '_index.md'
+    for name in SKIP_DIRECTORY_NAMES:
+        should_skip = should_skip or (name in path_parts)
+    return should_skip
 
 def initialize_yaml(lines: list[str]):
     if lines[0].strip() == '---':

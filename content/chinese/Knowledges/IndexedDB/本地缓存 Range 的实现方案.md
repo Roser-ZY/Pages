@@ -1,7 +1,7 @@
 ---
 title: "本地缓存 Range 的实现方案"
 author: "Roser"
-date: 2025-05-09
+date: 2025-02-08
 image: "images/content/IndexedDB.png"
 draft: false
 tags:

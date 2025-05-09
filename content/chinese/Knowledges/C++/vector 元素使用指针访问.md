@@ -1,7 +1,7 @@
 ---
 title: "vector 元素使用指针访问"
 author: "Roser"
-date: 2025-05-09
+date: 2025-02-20
 image: "images/content/C++.png"
 draft: false
 tags:

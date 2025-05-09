@@ -1,7 +1,7 @@
 ---
 title: "Cursor"
 author: "Roser"
-date: 2025-05-09
+date: 2025-01-17
 image: "images/content/IndexedDB.png"
 draft: false
 tags:

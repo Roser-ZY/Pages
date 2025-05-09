@@ -1,7 +1,7 @@
 ---
 title: "Hugoplate 文章适配指南"
 author: "Roser"
-date: 2025-05-09
+date: 2025-05-08
 image: "images/content/Hugo.png"
 draft: false
 tags:

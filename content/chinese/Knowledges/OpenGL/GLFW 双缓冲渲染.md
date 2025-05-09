@@ -1,7 +1,7 @@
 ---
 title: "GLFW 双缓冲渲染"
 author: "Roser"
-date: 2025-05-09
+date: 2025-04-10
 image: "images/content/OpenGL.png"
 draft: false
 tags:

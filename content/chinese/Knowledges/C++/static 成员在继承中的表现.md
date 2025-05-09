@@ -1,7 +1,7 @@
 ---
 title: "static 成员在继承中的表现"
 author: "Roser"
-date: 2025-05-09
+date: 2025-01-08
 image: "images/content/C++.png"
 draft: false
 tags:

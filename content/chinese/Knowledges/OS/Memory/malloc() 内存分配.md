@@ -1,7 +1,7 @@
 ---
 title: "malloc() 内存分配"
 author: "Roser"
-date: 2025-05-09
+date: 2025-05-08
 image: "images/content/OS.png"
 draft: false
 tags:

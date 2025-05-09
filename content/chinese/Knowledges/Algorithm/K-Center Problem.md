@@ -1,7 +1,7 @@
 ---
 title: "K-Center Problem"
 author: "Roser"
-date: 2025-05-09
+date: 2025-01-15
 image: "images/content/Algorithm.png"
 draft: false
 tags:
