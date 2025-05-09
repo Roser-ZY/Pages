@@ -94,14 +94,15 @@ block = [['$$', '$$']]
 inline = [['$', '$']]
 
 [params]
-  math = true
+math = true
+customCSS = ["css/custom.css"]
 
 [markup.highlight]
-style = 'monokai' # see https://xyproto.github.io/splash/docs/all.html
+style = 'tango' # see https://xyproto.github.io/splash/docs/all.html
 lineNumbersInTable = false
 
 [markup.tableOfContents]
-startLevel = 2
+startLevel = 1
 endLevel = 5
 ordered = true
 
