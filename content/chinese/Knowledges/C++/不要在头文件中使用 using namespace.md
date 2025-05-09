@@ -8,4 +8,4 @@ tags:
   - Cpp
   - EffectiveCpp
 ---
-虽然 `using` 有[作用域](using%20作用域.md)限制，但不建议将 `using namespace` 用于头文件，而是应该放在源文件中，避免项目规模扩大时，出现命名冲突问题。 
+虽然 `using` 有[作用域](../using-作用域)限制，但不建议将 `using namespace` 用于头文件，而是应该放在源文件中，避免项目规模扩大时，出现命名冲突问题。 

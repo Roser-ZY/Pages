@@ -20,4 +20,4 @@ PROPERTY() 中，`VisibleAnywhere` 和 `BlueprintReadOnly` 不冲突，他们作
 如果只写 `VisibleAnywhere`，则在蓝图中可读写的（默认）。
 如果只写 `BlueprintReadOnly`，则在编辑器中是不可见的（默认）。
 
-使用 `PROPERTY()` 需要注意，成员的类型必须是能够被 UE5 [Reflection System](../Core/Reflection%20System.md) 识别的类型，有些类型无法被识别，因此不能用于反射系统，也就无法用 `PROPERTY()` 标记。
+使用 `PROPERTY()` 需要注意，成员的类型必须是能够被 UE5 [Reflection System](../../Core/Reflection-System) 识别的类型，有些类型无法被识别，因此不能用于反射系统，也就无法用 `PROPERTY()` 标记。

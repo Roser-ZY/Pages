@@ -19,7 +19,7 @@ sr-ease: 270
 
 遍历顺序是不确定的，但是每个 `directory_entry` 只会被访问一次，特殊路径例如 `.` 和 `..` 会被跳过。
 
-如果 `directory_iterator` 报错，或者到达了越过最后一个 [`directory_entry`](directory_entry.md)，它会等于**默认构造的迭代器（*Default Constructed Iterator*）**，也就是**结束迭代器（*End Iterator*）**。
+如果 `directory_iterator` 报错，或者到达了越过最后一个 [`directory_entry`](../directory_entry)，它会等于**默认构造的迭代器（*Default Constructed Iterator*）**，也就是**结束迭代器（*End Iterator*）**。
 
 > 两个 End Iterator 总是相等的，对 End Iterator 执行自增或解引用操作是未定义行为。
 

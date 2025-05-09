@@ -17,7 +17,7 @@ tags:
 
 下面将展示一个示例流程和相应代码片段。请注意这是一个参考实现示例，实际开发中需要根据具体需求完善代码结构和异常处理。
 
-一般在 [Service Worker](../Chrome%20Extension/Service%20Worker%20基础.md) 中使用 IndexedDB，此时不需要 `chrome.storage` 权限。
+一般在 [Service Worker](../../Chrome-Extension/Service-Worker-基础) 中使用 IndexedDB，此时不需要 `chrome.storage` 权限。
 
 ### 初始化 IndexDB
 

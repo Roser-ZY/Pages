@@ -8,7 +8,7 @@ tags:
   - IndexedDB
   - DBAccess
 ---
-除了[基础访问方法](创建与访问%20Object%20Store.md)外，还可以通过 Cursor 访问数据库。Cursor 类似迭代器，通过调用 `openCursor()` 成员方法，或者 [Index](Index.md) 通过 [IDBKeyRange](IDBKeyRange.md) 的方式获取数据时会用到。
+除了[基础访问方法](../创建与访问-Object-Store)外，还可以通过 Cursor 访问数据库。Cursor 类似迭代器，通过调用 `openCursor()` 成员方法，或者 [Index](../Index) 通过 [IDBKeyRange](../IDBKeyRange) 的方式获取数据时会用到。
 
 获取到的 `cursor` 有两个属性：`key` 和 `value`。其中 `key` 是当前数据的主键，`value` 是存储的数据对象，可通过 `value` 获取数据对象的属性。每个 `cursor` 只能读取一个数据，通过调用 `cursor` 的 `continue()` 成员方法便可以按顺序访问下一个成员。这里的顺序可以通过 `openCursor()` 方法的参数指定。
 

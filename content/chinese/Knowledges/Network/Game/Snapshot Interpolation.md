@@ -27,7 +27,7 @@ Snapshot Interpolation 翻译为快照插值（后续本文简称为 SI）。SI 
 
 预测会出现错误，此时需要根据接收的数据包来进行修正。这种情况下，会出现明显的画面回滚，在一些游戏中体验并不好。
 
-> 例如[输入预测](输入预测.md)，[Rollback-Netcode](Rollback-Netcode.md)等方法。
+> 例如[输入预测](../输入预测)，[Rollback-Netcode](../Rollback-Netcode)等方法。
 # 压缩
 
 为了提高数据传输速率，可以对数据进行压缩。

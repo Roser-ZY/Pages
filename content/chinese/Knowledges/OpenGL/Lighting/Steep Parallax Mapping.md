@@ -10,9 +10,9 @@ tags:
   - Review
   - Texture
 ---
-陡峭视差映射（Steep Parallax Mapping）与[Parallax Mapping](Parallax%20Mapping.md)本质是一样的，只不过视差贴图制作了一次采样，而陡峭视差贴图会多次采样，以获得更好的模拟点。这种方式能够得到更好的结果，即使高度变化很陡峭也能更精确的获取偏移点。
+陡峭视差映射（Steep Parallax Mapping）与[Parallax Mapping](../Parallax-Mapping)本质是一样的，只不过视差贴图制作了一次采样，而陡峭视差贴图会多次采样，以获得更好的模拟点。这种方式能够得到更好的结果，即使高度变化很陡峭也能更精确的获取偏移点。
 
-> 以下均在[切向空间](../../Graphics/切向空间.md)中。
+> 以下均在[切向空间](../../../Graphics/切向空间)中。
 
 ![](images/陡峭视差贴图示意图.png)
 

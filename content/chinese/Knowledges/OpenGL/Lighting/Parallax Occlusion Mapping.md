@@ -10,7 +10,7 @@ tags:
   - Texture
   - Review
 ---
-Parallax Occlusion Mapping 在 [Steep Parallax Mapping](Steep%20Parallax%20Mapping.md) 的基础上，对包含目标高度的两个层级（一个层级高度大于纹理高度，另一个层级高度小于纹理高度）进行线性插值，从而得到更平滑的视觉效果。
+Parallax Occlusion Mapping 在 [Steep Parallax Mapping](../Steep-Parallax-Mapping) 的基础上，对包含目标高度的两个层级（一个层级高度大于纹理高度，另一个层级高度小于纹理高度）进行线性插值，从而得到更平滑的视觉效果。
 
 > 纹理偏移也会更接近真实值。
 

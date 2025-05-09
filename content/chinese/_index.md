@@ -7,7 +7,7 @@ banner:
   button:
     enable: true
     label: "Get started"
-    link: "roser-zy.github.io/knowledges"
+    link: "knowledges"
 # Features
 features:
   - title: "知识库里有什么？"

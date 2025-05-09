@@ -8,7 +8,7 @@ tags:
   - ChromeExtension
   - ServiceWorker
 ---
-Extension Service Worker（后续笔记均简称 Service Worker，与 Web Service Worker 区分）需要在 [Manifest](Manifest%20V3%20是什么.md) 中注册。与 Content Script 可以注册多个脚本文件不同，Service Worker 只能注册一个脚本文件（类似入口）：
+Extension Service Worker（后续笔记均简称 Service Worker，与 Web Service Worker 区分）需要在 [Manifest](../Manifest-V3-是什么) 中注册。与 Content Script 可以注册多个脚本文件不同，Service Worker 只能注册一个脚本文件（类似入口）：
 
 ```json
 {

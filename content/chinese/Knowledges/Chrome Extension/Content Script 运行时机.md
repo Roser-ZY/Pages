@@ -8,7 +8,7 @@ tags:
   - ChromeExtension
   - ContentScript
 ---
-[Manifest V3](Manifest%20V3%20是什么.md) 在配置内容脚本时，可选配置 `run_at` 配置项，类型为 [`RunAt`](https://developer.chrome.com/docs/extensions/reference/api/extensionTypes?hl=zh-cn#type-RunAt)，共有三个类型，默认为 `document_idle`：
+[Manifest V3](../Manifest-V3-是什么) 在配置内容脚本时，可选配置 `run_at` 配置项，类型为 [`RunAt`](https://developer.chrome.com/docs/extensions/reference/api/extensionTypes?hl=zh-cn#type-RunAt)，共有三个类型，默认为 `document_idle`：
 
 - `document_start`
 	在 css 中的任何文件之后、构建任何其他 DOM 或运行任何其他脚本之前注入脚本。

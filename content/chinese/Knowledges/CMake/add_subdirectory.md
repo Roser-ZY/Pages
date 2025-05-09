@@ -17,4 +17,4 @@ add_subdirectory(sourceDir [ binaryDir ] [ EXCLUDE_FROM_ALL ])
 
 **如果使用绝对路径，或者 `sourceDir` 不是当前项目的子目录，则必须指定 `binaryDir`，因为 CMake 无法通过相对路径来自动处理**。
 
-`EXCLUDE_FROM_ALL` 和 [add_library](add_library.md) 类似，但是在一些编译器上会导致问题，不建议在该命令使用，而是在 `add_library` 和 `add_executable` 上控制。
+`EXCLUDE_FROM_ALL` 和 [add_library](../add_library) 类似，但是在一些编译器上会导致问题，不建议在该命令使用，而是在 `add_library` 和 `add_executable` 上控制。

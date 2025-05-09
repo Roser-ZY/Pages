@@ -18,4 +18,4 @@ sr-ease: 270
 
 `directory_entry` 表示一个目录项。一个 `directory_entry` 对象记录一个 Path 作为成员，并且保存额外的文件属性（例如 Hard Link 数量，状态，Symlink 状态，文件大小，最后修改时间等）。
 
-主要用于 [`directory_iterator`](directory_iterator.md) 遍历，自带一些成员方法用于检查当前目录项的
+主要用于 [`directory_iterator`](../directory_iterator) 遍历，自带一些成员方法用于检查当前目录项的

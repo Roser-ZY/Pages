@@ -10,7 +10,7 @@ draft: true
 ---
 Animation Blueprint 通常用来做一些持续的状态动画，例如 Idle，Walk 和 Run 等。Animation Blueprint 不能在普通蓝图中访问并操作。
 
-[Animation Montage](Animation%20Montage.md) 通常用来做一些一次性动画，例如攻击，施法等。Animtaion Montage 能够在普通蓝图中访问并操作，也可以在 Animation Blueprint 中使用。
+[Animation Montage](../Animation-Montage) 通常用来做一些一次性动画，例如攻击，施法等。Animtaion Montage 能够在普通蓝图中访问并操作，也可以在 Animation Blueprint 中使用。
 
 如果一些动画希望能通过蓝图控制，可以创建为 Animation Montage 实现。
 

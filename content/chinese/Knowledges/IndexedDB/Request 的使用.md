@@ -9,7 +9,7 @@ tags:
 ---
 在 IndexedDB 中，一切操作都需要**请求**（*Request*）。几乎所有的数据库操作都会返回一个 Request 对象，后续对该次操作的错误处理或成功处理都需要通过绑定回调函数，或者添加事件监听器来实现。
 
-IndexedDB 的异步实际上是依赖 JS 的[事件循环](../JavaScript/事件循环.md)来实现的。
+IndexedDB 的异步实际上是依赖 JS 的[事件循环](../../JavaScript/事件循环)来实现的。
 
 ```typescript
 // Let us open our database

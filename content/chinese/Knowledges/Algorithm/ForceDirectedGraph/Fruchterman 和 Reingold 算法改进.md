@@ -9,7 +9,7 @@ tags:
   - Force-Directed
   - GraphLayout
 ---
-Fruchterman 和 Reingold 对 [Eades 算法](Eades%20算法.md) 进行了改进，他们添加了顶点均匀分布的计算，让图中的顶点视为“彼此之间具有吸引力和排斥力的原子、粒子或者天体。“
+Fruchterman 和 Reingold 对 [Eades 算法](../Eades-算法) 进行了改进，他们添加了顶点均匀分布的计算，让图中的顶点视为“彼此之间具有吸引力和排斥力的原子、粒子或者天体。“
 
 吸引力和排斥力计算方式为：
 $$

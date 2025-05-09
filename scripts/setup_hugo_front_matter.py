@@ -93,39 +93,38 @@ def setup_basic_info(file_path: Path, lines: list[str]):
         timestamp = datetime.datetime.fromtimestamp(file_path.stat().st_mtime).strftime('%Y-%m-%d')
         lines.insert(3, f'date: {timestamp}\n')
 
-if __name__ == '__main__':
-    if not ORIGIN_PATH.exists():
-        print(f'The directory {ORIGIN_PATH} is not exist.')
-        sys.exit(0)
+if not ORIGIN_PATH.exists():
+    print(f'The directory {ORIGIN_PATH} is not exist.')
+    sys.exit(0)
 
-    if not OUTPUT_PATH.exists():
-        OUTPUT_PATH.mkdir(parents=True, exist_ok=True)
-        print(f'The directory {OUTPUT_PATH} created.')
+if not OUTPUT_PATH.exists():
+    OUTPUT_PATH.mkdir(parents=True, exist_ok=True)
+    print(f'The directory {OUTPUT_PATH} created.')
         
-    for md_file in ORIGIN_PATH.rglob('*.md'):
-        lines: list[str] = []
+for md_file in ORIGIN_PATH.rglob('*.md'):
+    lines: list[str] = []
 
-        output_file = OUTPUT_PATH / md_file.relative_to(ORIGIN_PATH)
+    output_file = OUTPUT_PATH / md_file.relative_to(ORIGIN_PATH)
 
-        if need_skip(md_file):
-            print(f'Skip {output_file}.')
-            continue
+    if need_skip(md_file):
+        print(f'Skip {output_file}.')
+        continue
 
-        if output_file.exists():
-            print(f'{output_file} exists.')
-            continue
+    if output_file.exists():
+        print(f'{output_file} exists.')
+        continue
 
-        output_file.parent.mkdir(parents=True, exist_ok=True)
-        with md_file.open('r', encoding='utf-8') as source_file:
-            lines = source_file.readlines()
-            
-            if len(lines) > 0:
-                print(f"Processing {md_file}")
+    output_file.parent.mkdir(parents=True, exist_ok=True)
+    with md_file.open('r', encoding='utf-8') as source_file:
+        lines = source_file.readlines()
+        
+        if len(lines) > 0:
+            print(f"Processing {md_file}")
 
-                initialize_yaml(lines)
-                mark_as_draft(lines)
-                setup_image(md_file, lines)
-                setup_basic_info(md_file, lines)
+            initialize_yaml(lines)
+            mark_as_draft(lines)
+            setup_image(md_file, lines)
+            setup_basic_info(md_file, lines)
 
-        with output_file.open('w', encoding='utf-8') as target_file:
-            target_file.writelines(lines)
+    with output_file.open('w', encoding='utf-8') as target_file:
+        target_file.writelines(lines)

@@ -9,7 +9,7 @@ tags:
   - Force-Directed
   - GraphLayout
 ---
-Harel 和 Koren 提出了针对 Large Graph 的分层布局优化算法，超过 1000 顶点的图布局算法也能有比较可观的时间复杂度。该算法基于 [Kamada-Kawai 图布局算法](Kamada-Kawai%20图布局算法.md) 实现。
+Harel 和 Koren 提出了针对 Large Graph 的分层布局优化算法，超过 1000 顶点的图布局算法也能有比较可观的时间复杂度。该算法基于 [Kamada-Kawai 图布局算法](../Kamada-Kawai-图布局算法) 实现。
 
 该算法的核心观点是考虑对图进行抽象，而不去考虑细节优化。先将一个抽象图绘制出来，产生一个粗略的布局，只展示图的概要结构，然后再对细节进行修正。
 

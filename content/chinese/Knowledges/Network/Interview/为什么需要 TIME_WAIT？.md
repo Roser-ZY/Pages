@@ -13,7 +13,7 @@ sr-due: 2025-05-06
 sr-interval: 55
 sr-ease: 270
 ---
-[TCP 四次挥手](../TCP/TCP%20四次挥手.md)时，主动断开连接的一方在最后发送 ACK 报文后，会进入 TIME_WAIT 状态，该状态[持续时间为 2MSL](为什么%20TIME_WAIT%20等待时间为%202MSL？.md)。
+[TCP 四次挥手](../../TCP/TCP-四次挥手)时，主动断开连接的一方在最后发送 ACK 报文后，会进入 TIME_WAIT 状态，该状态[持续时间为 2MSL](../为什么-TIME_WAIT-等待时间为-2MSL？)。
 
 TIME_WAIT 主要有两个作用：
 

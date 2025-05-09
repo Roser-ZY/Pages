@@ -9,7 +9,7 @@ tags:
   - Force-Directed
   - GraphLayout
 ---
-Kamada 和 Kawai 提出了与 [Fruchterman 和 Reingold 算法改进](Fruchterman%20和%20Reingold%20算法改进.md) 和 [Tutte 的重心算法](Tutte%20的重心算法.md) 专注于几何布局不同的算法思路，将图的**拓扑距离**转化为**几何距离**，更直观地展示图的结构关系。简单来说，就是将图论中的任意两点间的最短路径长度（All-Pairs-Shortest-Path）转换为两顶点间的几何直线距离，核心目标是**让几何距离尽可能接近拓扑距离**，以便在视觉上反映图的结构特性。
+Kamada 和 Kawai 提出了与 [Fruchterman 和 Reingold 算法改进](../Fruchterman-和-Reingold-算法改进) 和 [Tutte 的重心算法](../Tutte-的重心算法) 专注于几何布局不同的算法思路，将图的**拓扑距离**转化为**几何距离**，更直观地展示图的结构关系。简单来说，就是将图论中的任意两点间的最短路径长度（All-Pairs-Shortest-Path）转换为两顶点间的几何直线距离，核心目标是**让几何距离尽可能接近拓扑距离**，以便在视觉上反映图的结构特性。
 
 该算法首先要计算顶点间的最短路径长度，保存到距离矩阵中。
 

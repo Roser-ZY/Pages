@@ -7,7 +7,7 @@ draft: false
 tags:
   - CMake
 ---
-在 [Scope](Scope.md) 中介绍过，Child Scope 中对 Calling Scope 的修改不会影响 Calling Scope。但是在某些情况下，需要将一些变量值回传给 Calling Scope，此时可以使用 `PARENT_SCOPE` 关键字。
+在 [Scope](../Scope) 中介绍过，Child Scope 中对 Calling Scope 的修改不会影响 Calling Scope。但是在某些情况下，需要将一些变量值回传给 Calling Scope，此时可以使用 `PARENT_SCOPE` 关键字。
 
 `PARENT_SCOPE` 是 `set()` 的可选项，用于指定当前创建（修改）的变量作用域。
 
